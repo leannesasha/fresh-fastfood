@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: all 0.2s linear;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 7em;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+
+}
+body{
+    position: absolute;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+    height: 70px;
+    box-shadow: 0 0 10px black;
+}
+.logo img{
+    width: 100px;
+    height: 100%;
+    padding: 10px 0;
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar ul li a{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: black;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8% ;
+}
+.home-content {
+    font-size: 15px;
+    max-width: 800px;
+}
+
+.home-content h1 span{
+    font-family: mv boli;
+    color: #FAC031;
+}
+.imageprincipal img{
+    max-width: 100%;
+    height: 400px;
+}
+.home-content p{
+    margin-top: 20px;
+}
+.home-content button{
+    padding: 5px 20px;
+    background-color: #FAC031 ;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 18px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin: 20px 10px;
+}
+.deux{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10%;
+    font-size: 20px;
+}
+.deux img{
+    width: 600px;
+
+}
+.trois h1 span {
+     font-family: mv boli;
+    color: #FAC031;
+}
+.trois h3{
+    color: black;
+    margin-top: 20px;
+}
+.trois p{
+    padding: 20px;
+    
+}
+.trois button{
+    padding: 5px 20px;
+    background-color: #FAC031 ;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 18px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin: 20px 10px;
+
+}
+
+.huit img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 8px rgb(24, 21, 21);
+    transition: transform 0.5s;
+    
+}
+.huit img:hover{
+    transform: scale(1.1);
+}
+.chiffre {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px;
+    
+
+}
+.dix{
+     padding: 100px 10%;
+     
+}
+.huit{
+    box-shadow: 2px 2px 8px rgb(253, 236, 236);
+}
+.neuf{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.neuf h1 span{
+     font-family: mv boli;
+    color: #FAC031;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.neuf h1{
+    font-size: 30px;
+}
+.huit h3{
+    color: #FAC031;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.huit p{
+    color: rgb(14, 14, 14);
+    margin-top: 20px;
+    text-align: center;
+
+}
+.huit h4{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+
+}
+.huit h5{
+    text-align: center;
+}
+.huit button{
+    
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+}
+.sept img{
+     width: 350px;
+    height: 250px;
+    box-shadow: 2px 2px 8px rgb(24, 21, 21);
+}
+.nombre{
+     display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+
+}
+.six{
+     padding: 100px 10%;
+     
+    
+}
+.trente img{
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px 2px 8px rgb(24, 21, 21);
+    border-radius: 100px;
+     transition: transform 0.5s;
+
+}
+.trente img:hover{
+     transform: scale(1.3); 
+}
+
+.nom{
+    display: flex;
+}
+
+.trente p{
+    color: rgb(14, 14, 14);
+    margin-top: 20px;
+    text-align: center;
+
+}
+.trente h2{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+
+}
+.trente h5{
+    text-align: center;
+}
+.trente{
+    box-shadow: 2px 2px 8px rgb(24, 21, 21);
+    padding: 30px 30px 20px 60px;
+    margin: 20px 20px 20px 20px;
+    width: 300px;
+    
+}
+.trente img{
+    position: relative;
+    display: inline-block;
+}
+.voyelle .neuf{
+    text-align: center;
+}
+.voyelle{
+         padding: 100px 10%;
+}
+.voyelle h1 span{
+     font-family: mv boli;
+    color: #FAC031;
+    font-size: 30px;
+    text-decoration: underline;
+    
+}
+.voyelle h1{
+    text-align: center;
+}
+.janvier h1 span{
+    
+    color: #FAC031;
+    font-size: 30px;
+    text-decoration: underline;
+    
+}
+.janvier h1{
+    font-size:30px ;
+  
+  text-align: center;
+}
+.janvier{
+     background-image:url(../IMAGE/IMG_4984.JPG) ;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 160%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10%;
+}
+.fevrier{
+    display: flex;
+    padding: 50px 8%;
+}
+.cinq img{
+    width: 500px;
+    height: auto;
+    margin-right: 100px;
+   
+
+}
+.fevrier form button{
+    color: white;
+    background-color: #FAC031;
+    padding: 10px 10px 10px 10px;
+   
+}
+
+
+.champ input{
+    border:  2px solid rgb(186, 187, 189);
+    background-color: lightgrey;
+    padding: 5px 5px 5px 5px;
+   
+    
+}
+.fevrier form{
+    display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap: 15px;
+
+}
+.avril h1 span{
+    font-family: mv boli;
+    color: #FAC031;
+    font-size: 30px;
+
+}
+.avril img{
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 8px rgb(24, 21, 21);
+    border-radius: 300px;
+    padding: 20px;
+    
+    
+}
+.avril{
+    background-image: url(../IMAGE/IMG_4983.JPG);
+}
+
+.mai h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.mai{
+    padding: 100px 10%;
+}
+.mai h1 span{
+    color: #FAC031;
+    font-size: 30px;
+}
+.avril img{
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.image-conteneur:hover + .texte{
+    display: block;
+}
+.texte{
+    display: none;
+}
+.image-conteneur:hover{
+    transform: translateY(-20px);
+}
+.texte{
+    display: none;
+}
+.fond{
+    display: grid;
+     grid-template-columns: repeat(4,1fr);
+     padding: 50px 8%;
+     background-color: rgb(168, 166, 166);
+     margin: 20px 20px 20px 20px;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
