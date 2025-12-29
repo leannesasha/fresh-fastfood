@@ -279,7 +279,7 @@ header{
   text-align: center;
 }
 .janvier{
-     background-image:url(../IMAGE/IMG_4984.JPG) ;
+     background-image:url(IMAGE/IMG_4984.JPG) ;
     background-repeat: no-repeat;
     background-position: left;
     background-size: 160%;
@@ -335,7 +335,7 @@ header{
     
 }
 .avril{
-    background-image: url(../IMAGE/IMG_4983.JPG);
+    background-image: url(IMAGE/IMG_4983.JPG);
 }
 
 .mai h1{
